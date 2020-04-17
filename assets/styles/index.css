@@ -1,0 +1,1655 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 82px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4e69a2), color-stop(50%, #3b5998));
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+}
+
+.header__content {
+  height: 83px;
+  width: auto;
+  margin-left: 185.500px;
+  margin-right: 185.500px;
+}
+
+.header__content__logo {
+  display: inline-block;
+  padding-top: 20px;
+  font-family: inherit;
+}
+
+.header__content__logo__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 4.2rem;
+}
+
+.header-table {
+  float: right;
+  padding-top: 13px;
+}
+
+.header-table__item {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.header-table__item2 {
+  border-color: #1d2a5b;
+  width: 142px;
+  padding: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid #bdc7d8;
+  margin-right: 15px;
+}
+
+.header-table__F-account {
+  color: #9cb4d8;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.header-table__button {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 18px;
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+a {
+  color: #365899;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+
+.main {
+  width: 100%;
+  height: 543.2px;
+  background: #edf0f5;
+  font-size: 1.2rem;
+  color: #1d2129;
+  line-height: 1.34;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__content {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__content__infoSect {
+  margin-right: 16px;
+  width: 565px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main__content__infoSect__header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.main__content__infoSect__subtitle {
+  font-size: 19px;
+  line-height: 126%;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: normal;
+}
+
+.main__content__infoSect__accounts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__content__infoSect__accounts__box {
+  margin: 0 20px 20px 0;
+  width: 160px;
+  display: block;
+}
+
+.main__content__infoSect__accounts__box:hover {
+  border: 3px solid #4267b2;
+}
+
+.main__content__infoSect__accounts__box__pic {
+  background-image: url("https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person");
+  background-size: cover;
+  height: 160px;
+  width: 160px;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.main__content__infoSect__accounts__box__title {
+  background-color: #fff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  overflow: hidden;
+  padding: 12px 0;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 160px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.main__content__regSect {
+  width: 399px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main__content__regSect__title {
+  width: 400px;
+}
+
+.main__content__regSect__title__header {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #333;
+  line-height: 120%;
+  margin-bottom: 5px;
+}
+
+.main__content__regSect__title__subTitle {
+  color: #333;
+  font-size: 19px;
+  line-height: 126%;
+  margin-bottom: 20px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__fName {
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__fName ::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__fName :-ms-input-placeholder {
+  font-size: 18px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__fName ::-ms-input-placeholder {
+  font-size: 18px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__fName ::placeholder {
+  font-size: 18px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__fName__box {
+  background: transparent;
+  border-radius: 5px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__fName__box__input {
+  width: 194px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__lName ::-webkit-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__lName :-ms-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__lName ::-ms-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__lName ::placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__lName__box {
+  background: transparent;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__fullName__lName__box__input {
+  width: 194px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__mob {
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__mob ::-webkit-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__mob :-ms-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__mob ::-ms-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__mob ::placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__mob__item {
+  width: 399px;
+  background: transparent;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__mob__item__input {
+  background: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+  width: 399px;
+  border: 1px solid #d3d3d3;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__newPsw {
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__newPsw ::-webkit-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__newPsw :-ms-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__newPsw ::-ms-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__newPsw ::placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__newPsw__item {
+  width: 399px;
+  background: transparent;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__newPsw__item__input {
+  background: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+  width: 399px;
+  border: 1px solid #d3d3d3;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__birthday__title {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0 10px 0;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__birthday__check__date__months {
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #bdc7d8;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__birthday__check__date__days {
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #bdc7d8;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__birthday__check__date__years {
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #bdc7d8;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__birthday__check__link {
+  font-size: 11px;
+  max-width: 150px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__gender {
+  margin-top: 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__gender__box__female {
+  margin-right: 4px;
+  border-radius: 4px;
+  border-width: 1px;
+  display: inline-block;
+  padding: 5px 0 5px 4px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__gender__box__female__radio {
+  font-size: 12px;
+  margin: 3px 3px 0px 5px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__gender__box__female__label {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__gender__box__male {
+  border-radius: 4px;
+  border-width: 1px;
+  display: inline-block;
+  padding: 5px 0 5px 4px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__gender__box__male__radio {
+  font-size: 12px;
+  margin: 3px 3px 0px 5px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__gender__box__male__label {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__agree {
+  width: 399px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__agree__text {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  margin: 1em 0;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__btn__signUpBtn {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 126%;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#67ae55), to(#578843));
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+          box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main__content__regSect__fill__inputbox__items__form__box__btn__signUpBtn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#73b363), to(#5d864d));
+  background: linear-gradient(#73b363, #5d864d);
+  background-color: #76aa60;
+  -webkit-box-shadow: inset 0 1px 1px #b1e999;
+          box-shadow: inset 0 1px 1px #b1e999;
+  border-color: #487532 #487531 #355322;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.main__content__regSect__fill__inputbox__message {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 220px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__content {
+  width: calc(100% - 371px);
+  height: 52px;
+  background: #fff;
+}
+
+.footer__links {
+  color: #365899;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  padding: 5px;
+  padding: 15px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.authHeader {
+  width: 100%;
+  height: 42px;
+  background: #4266B2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.authHeader__content {
+  width: calc(100% - 205px);
+  height: 42px;
+  overflow: hidden;
+}
+
+.authHeader__content__item {
+  width: 1012px;
+  height: 42px;
+  margin: 0 auto;
+  background: #4266B2;
+}
+
+.authHeader__content__item__logo {
+  width: 31px;
+  height: 42px;
+  float: left;
+}
+
+.authHeader__content__item__profile {
+  width: 404px;
+  height: 42px;
+  float: left;
+}
+
+.authHeader__content__item__profile__info {
+  height: 42px;
+  float: left;
+}
+
+.authHeader__content__item__profile__info__personal {
+  height: 28px;
+  margin: 7px 1px 8px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.authHeader__content__item__profile__info__personal:hover {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #365899;
+}
+
+.authHeader__content__search {
+  width: 570px;
+  height: 42px;
+  float: left;
+}
+
+.authHeader__content__search__field {
+  width: 393px;
+  height: 24px;
+  padding-left: 5px;
+  padding-right: 48px;
+  background-color: #fff;
+  font-size: 1.4rem;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 7px;
+  outline: none;
+  float: left;
+  border: none;
+  outline: none;
+}
+
+.authHeader__content__search__button {
+  width: 46px;
+  height: 24px;
+  background-color: #f5f6f7;
+  border: none;
+  margin-top: 7px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.authHeader__content__search__button:hover {
+  background: #3F80FF;
+}
+
+.fa-facebook-f {
+  width: 24px;
+  height: 24px;
+  margin: 7px 5px 7px 2px;
+  padding-left: 9px;
+  border-radius: 1px;
+  color: #4266B2;
+  background: #fff;
+  font-size: 2.4rem;
+}
+
+.search--icon {
+  width: 14px;
+  height: 14px;
+  padding: 1px;
+  margin: 1px;
+  color: #4b4f56;
+}
+
+.name {
+  width: 90px;
+}
+
+.Home {
+  width: 60px;
+}
+
+.Create {
+  width: 63px;
+}
+
+.authHeader__img {
+  background-image: url("https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  float: left;
+}
+
+.authHeader__customer__name {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 28px;
+}
+
+.icons i {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  margin: 0 4px;
+  font-size: 20px;
+  color: #1B2947;
+}
+
+.authHeader-icons {
+  margin-top: 7px;
+}
+
+.logOutBtn {
+  float: right;
+  position: absolute;
+  top: 10px;
+  margin-left: 35px;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 18px;
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+.right-side {
+  width: 205px;
+  height: calc(100vh - 72px);
+  position: fixed;
+  top: 42px;
+  right: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 2px 0 2px -2px #b2b9c9;
+          box-shadow: inset 2px 0 2px -2px #b2b9c9;
+  font-size: 1.2rem;
+  background: #e9ebee;
+}
+
+.right-side:hover {
+  overflow-y: scroll;
+}
+
+.right-side__list {
+  padding-top: 5px;
+  overflow-y: auto;
+}
+
+.right-side__list__item {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+}
+
+.right-side__list__item:hover {
+  background: #bfc4cf;
+}
+
+.right-side__list__item__content {
+  padding-top: 4px;
+  padding-left: 8px;
+}
+
+.right-side__list__item__picture {
+  background-image: url("https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  float: left;
+}
+
+.right-side__list__item__name {
+  margin-left: 8px;
+  line-height: 32px;
+  color: #333;
+  font-size: 12px;
+  float: left;
+}
+
+.right-side__list__item__circle {
+  width: 6px;
+  height: 6px;
+  background: #42b72a;
+  border-radius: 50%;
+  float: right;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+
+.right-side__search {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #dadfea;
+  overflow: hidden;
+  background: #f5f6f7;
+}
+
+.right-side__search__icons {
+  height: 100%;
+  width: 30px;
+  float: left;
+}
+
+.right-side__search__icons i {
+  font-size: 14px;
+  color: #BEC3C8;
+  padding: 3px;
+  margin-left: 5px;
+  line-height: 30px;
+}
+
+.right-side__search__icons2 {
+  width: 98px;
+  height: 30px;
+  float: left;
+}
+
+.right-side__search__icons2 i {
+  font-size: 16px;
+  color: #BEC3C8;
+  padding-bottom: 3px;
+  margin-right: 8px;
+  line-height: 30px;
+}
+
+.right-side__search__icons2 i:hover {
+  color: #595757;
+}
+
+.right-side__search input {
+  width: 79px;
+  height: 30px;
+  float: left;
+  border: none;
+  outline: none;
+  padding-left: 3px;
+  background-color: #f5f6f7;
+  font-size: 14px;
+}
+
+.right {
+  float: right;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+i {
+  width: 12px;
+  height: 12px;
+  color: gray;
+}
+
+.Main-content {
+  width: 820px;
+  float: right;
+  margin-left: 12px;
+  position: relative;
+  margin-top: 42px;
+}
+
+.Main-content__header {
+  height: 365px;
+}
+
+.Main-content__header__cover {
+  height: 312px;
+  width: 820px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Main-content__header__cover__img {
+  left: 0px;
+  top: -223px;
+  position: absolute;
+  border: 0;
+}
+
+.Main-content__header__buttonBox {
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 12px;
+  background-color: #fff;
+  height: 53px;
+}
+
+.Main-content__header__buttonBox__btns__left {
+  float: left;
+}
+
+.Main-content__header__buttonBox__btns__left__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Main-content__header__buttonBox__btns__left__items__like {
+  border-radius: 2px 0 0 2px;
+  margin-left: 0 !important;
+  position: relative;
+  z-index: 1;
+  line-height: 26px;
+  padding: 0 10px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+  border: 1px solid;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.Main-content__header__buttonBox__btns__left__items__like:hover {
+  background-color: #dad8d8;
+}
+
+.Main-content__header__buttonBox__btns__left__items__follow {
+  border-radius: 2px 0 0 2px;
+  margin-left: 0 !important;
+  position: relative;
+  z-index: 1;
+  line-height: 26px;
+  padding: 0 10px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+  border: 1px solid;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.Main-content__header__buttonBox__btns__left__items__follow:hover {
+  background-color: #dad8d8;
+}
+
+.Main-content__header__buttonBox__btns__left__items__share {
+  border-radius: 2px 0 0 2px;
+  margin-left: 0 !important;
+  position: relative;
+  z-index: 1;
+  line-height: 26px;
+  padding: 0 10px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+  border: 1px solid;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.Main-content__header__buttonBox__btns__left__items__share:hover {
+  background-color: #dad8d8;
+}
+
+.Main-content__header__buttonBox__btns__left__items__more {
+  border-radius: 2px 0 0 2px;
+  margin-left: 0 !important;
+  position: relative;
+  z-index: 1;
+  line-height: 26px;
+  padding: 0 10px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+  border: 1px solid;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.Main-content__header__buttonBox__btns__left__items__more:hover {
+  background-color: #dad8d8;
+}
+
+.Main-content__header__buttonBox__btns__right {
+  float: right;
+}
+
+.Main-content__header__buttonBox__btns__right__items__learn-more__button {
+  width: 288px;
+  font-size: 14px;
+  height: 28px;
+  padding: 0;
+  background-color: #4267b2;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 26px;
+}
+
+.Main-content__header__buttonBox__btns__right__items__learn-more__button:hover {
+  background-color: #012b80;
+}
+
+.Main-content__content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.Main-content__content-container__right {
+  width: 308px;
+  margin: 0 12px;
+  padding-top: 12px;
+}
+
+.Main-content__content-container__right__box__col__rating {
+  background-color: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Main-content__content-container__right__box__col__rating__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+}
+
+.Main-content__content-container__right__box__col__rating__cont__icon {
+  background-image: url("https://puretextuality.files.wordpress.com/2013/11/no-ratings1.png");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.Main-content__content-container__right__box__col__rating__cont__text {
+  margin-left: 11px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.Main-content__content-container__right__box__col__story {
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+
+.Main-content__content-container__right__box__col__story__box__pic {
+  height: 150px;
+  background: #4267b2;
+}
+
+.Main-content__content-container__right__box__col__story__box__head {
+  background: #fff;
+}
+
+.Main-content__content-container__right__box__col__story__box__head__title {
+  padding: 12px 0 0 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Main-content__content-container__right__box__col__story__box__head__subtitle {
+  padding: 12px;
+  font-size: 14px;
+  color: blue;
+  font-weight: 500;
+}
+
+.Main-content__content-container__right__box__col__community {
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.Main-content__content-container__right__box__col__community__header {
+  border-top: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 12px 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.Main-content__content-container__right__box__col__community__header__titleBold {
+  color: #000;
+  font-size: 14px;
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+.Main-content__content-container__right__box__col__community__header__tilteReg {
+  cursor: pointer;
+  display: block;
+  float: right;
+  line-height: 13px;
+  margin: 0 12px;
+  font-size: 12px;
+  color: #365899;
+}
+
+.Main-content__content-container__right__box__col__community__likes {
+  margin-left: 12px;
+  border-top: none;
+}
+
+.Main-content__content-container__right__box__col__community__likes__box {
+  padding: 4px 12px;
+}
+
+.Main-content__content-container__right__box__col__community__likes__box__icon {
+  float: left;
+  margin-right: 12px;
+}
+
+.Main-content__content-container__right__box__col__community__follows {
+  margin: 0 0 12px 12px;
+  border-top: none;
+}
+
+.Main-content__content-container__right__box__col__community__follows__box {
+  padding: 4px 12px;
+}
+
+.Main-content__content-container__right__box__col__community__follows__box__icon {
+  float: left;
+  margin-right: 12px;
+}
+
+.Main-content__content-container__left {
+  width: 500px !important;
+  margin-left: 12px;
+  padding-top: 12px;
+}
+
+.Main-content__content-container__left__feed__postin {
+  margin-bottom: 10px;
+}
+
+.Main-content__content-container__left__feed__postin__sect {
+  background-color: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+}
+
+.Main-content__content-container__left__feed__postin__sect__list {
+  border-top: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 12px;
+  padding: 10px 0 8px 0;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.Main-content__content-container__left__feed__postin__sect__list__item {
+  display: inline;
+  padding: 4px 6px 4px 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #4b4f56;
+}
+
+.Main-content__content-container__left__feed__postin__sect__list__itemi {
+  border-width: 0;
+  margin-left: -12px;
+  padding: 0 6px 0 8px;
+  color: #4b4f56;
+}
+
+.Main-content__content-container__left__feed__postin__sect__list__item__text {
+  display: inline-block;
+  padding-left: 11px;
+  color: #4b4f56;
+}
+
+.Main-content__content-container__left__feed__postin__sect__inpSec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 71px;
+}
+
+.Main-content__content-container__left__feed__postin__sect__inpSec__pic {
+  background-image: url("https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person");
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 12px 0 0 12px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.Main-content__content-container__left__feed__postin__sect__inpSec__textArea__input {
+  width: 426px;
+  height: 71px;
+  border: none;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.Main-content__content-container__left__feed__postin__sect__btnSec__listBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 49px;
+  /* align-content: center; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #e9ebee;
+  margin: 0 12px;
+  padding: 8px 0;
+}
+
+.Main-content__content-container__left__feed__postin__sect__btnSec__listBox__Btn {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+  margin-right: 6px;
+  background: #f5f6f7;
+  border-radius: 18px;
+  border: none;
+  position: relative;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.Main-content__content-container__left__feed__postin__sect__btnSec__listBox__Btn__icon {
+  height: 20px;
+  width: 20px;
+  background-color: #4267b2;
+}
+
+.Main-content__content-container__left__feed__postin__sect__btnSec__listBox__Btn__text {
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #4b4f56;
+  display: inline-block;
+  font-weight: 600;
+  height: 34px;
+  line-height: 34px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+  cursor: pointer;
+}
+
+.Main-content__content-container__left__feed__postin__sect__btnSec__listBox__Btn:hover {
+  background-color: #e6e6e6;
+}
+
+.Main-content__content-container__left__feed__posts {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.Main-content__content-container__left__feed__posts__content__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Main-content__content-container__left__feed__posts__content__user__pic {
+  background-image: url("https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person");
+  background-size: cover;
+  background-color: #4267b2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 12px 0 0 12px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.Main-content__content-container__left__feed__posts__content__user__postInfo {
+  margin: 16px 0 0 12px;
+  vertical-align: middle;
+}
+
+.Main-content__content-container__left__feed__posts__content__user__postInfo__name {
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: #365899;
+  font-weight: 600;
+}
+
+.Main-content__content-container__left__feed__posts__content__user__postInfo__date {
+  color: #616770;
+  font-size: 12px;
+}
+
+.Main-content__content-container__left__feed__posts__content__text {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.38;
+  padding: 12px 12px 0;
+}
+
+.Main-content__content-container__left__feed__posts__content__postPhoto {
+  padding: 12px 12px 0;
+  margin-top: 10px;
+  margin: 10px 12px;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Best-Back-To-The-Future-Wallpapers.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+.Main-content__content-container__left__feed__posts__content__postReactions {
+  padding: 12px 12px 0;
+}
+
+.Main-content__content-container__left__feed__posts__content__postReactions__list {
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Main-content__content-container__left__feed__posts__content__postReactions__list__item {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  padding: 4px 0;
+  margin: 0 12px;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #616770;
+}
+
+.Main-content__content-container__left__feed__posts__content__postReactions__list__item:hover {
+  width: 100px;
+  background-color: #90949c;
+}
+
+.main-section {
+  width: calc(100% - 205px);
+  height: auto;
+  float: left;
+  background: #e9ebee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section__info {
+  width: 1012px;
+  height: auto;
+}
+
+.left-side {
+  width: 180px;
+  height: auto;
+  margin-top: 42px;
+  background: #e9ebee;
+  display: inline-block;
+}
+
+.left-side__img {
+  width: 175px;
+  height: 175px;
+  background: #11c7be;
+  background-image: url("https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person");
+  background-size: cover;
+  margin-top: 10px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.left-side__name {
+  width: 180px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.left-side__name__span__link {
+  text-decoration: none;
+  color: #1d2129;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.left-side__name__span:hover {
+  text-decoration: underline;
+}
+
+.left-side__name__link {
+  color: #90949c;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-top: 4px;
+}
+
+.left-side__nav {
+  width: 180px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.left-side__nav__list {
+  list-style: none;
+}
+
+.left-side__nav__list__items {
+  padding: 7px 5px 7px 0;
+}
+
+.left-side__nav__list__items:first-child {
+  background: #f5f6f7;
+  border: 1px solid #dddfe2;
+  border-radius: 2px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.left-side__nav__list__items:hover {
+  background: #f5f6f7;
+  border: 1px solid #dddfe2;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.left-side__nav__list__items__link {
+  margin-left: 4px;
+  text-decoration: none;
+  color: #1d2129;
+  font-size: 14px;
+}
+
+.chat-section {
+  position: fixed;
+  right: 205px;
+  bottom: 0;
+  width: 900px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  z-index: 100;
+}
+
+.chat {
+  height: 350px;
+  width: 284px;
+  background: #fff;
+  margin-right: 10px;
+  display: block;
+  z-index: 101;
+  border-radius: 8px 8px 0 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.chat__top {
+  height: 42px;
+  width: 284px;
+  background: #fff;
+  padding: 7px 4px 7px 8px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 8px 8px 0 0;
+  border: 0;
+}
+
+.chat__top__photo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: red;
+  display: inline-block;
+}
+
+.chat__top__name {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 9px;
+  font-size: 13px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #1c1e21;
+  font-weight: bold;
+}
+
+.chat__top__icons {
+  width: 86px;
+  height: 16px;
+  margin-left: 55px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chat__sms {
+  height: 248px;
+  width: 284px;
+  background: floralwhite;
+}
+
+.chat__sms__span {
+  height: auto;
+  width: auto;
+  padding: 10px;
+  background: #8f41dd;
+  font-size: 17px;
+  color: #fff;
+  margin: 5px;
+  border-radius: 20px;
+  float: right;
+  display: none;
+}
+
+.chat__input {
+  width: 284px;
+  height: 60px;
+  background: lawngreen;
+  border-top: 1px solid lightgrey;
+}
+
+.chat__input__area {
+  width: 284px;
+  height: 32px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat__input__area__text {
+  height: 20px;
+  width: 267.906px;
+  border: none;
+}
+
+.chat__input__icons {
+  width: 284px;
+  height: 28px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bIcon {
+  font-size: 17px;
+  color: gray;
+  margin-right: 5px;
+}
+
+.chatIcon {
+  font-size: 19px;
+  color: #365899;
+}
+
+.chatDisplay {
+  display: none;
+}
+
+.chatCloseIcon {
+  color: black;
+  margin-top: -13px;
+  font-size: 18px;
+  padding-left: 1px;
+}
+/*# sourceMappingURL=index.css.map */

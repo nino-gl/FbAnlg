@@ -1,0 +1,610 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+i {
+    width: 12px;
+    height: 12px;
+    color: gray;
+}
+.Main-content{
+    width: 820px;
+
+    // background: rgb(235, 10, 235);
+
+    float: right;
+    margin-left: 12px;
+    position: relative;
+    margin-top: 42px;
+    
+    &__header {
+        height: 365px;
+        &__cover {
+            height: 312px;
+            width: 820px;
+            overflow: hidden;
+            position: relative;
+            
+            &__img {
+                left: 0px;
+                top: -223px;
+                position: absolute;
+                border: 0;
+            }
+        }
+        
+        &__buttonBox {
+            border: 1px solid #dddfe2;
+            border-radius: 3px;
+            bottom: -1px;
+            left: -1px;
+            // position: absolute;
+            right: -1px;
+            top: -1px;
+            box-sizing: border-box;
+            padding: 12px;
+            background-color: #fff;
+            height: 53px;
+            
+            &__btns {
+                
+                &__left {
+                    float: left;
+                    &__items {
+                        display: flex;
+                        flex-direction: row;
+                        
+                        &__like {
+                            
+                            border-radius: 2px 0 0 2px;
+                            margin-left: 0 !important;
+                            position: relative;
+                            z-index: 1;
+                            line-height: 26px;
+                            padding: 0 10px;
+                            background-color: #f5f6f7;
+                            border-color: #ccd0d5;
+                            color: #4b4f56;
+                            border: 1px solid;
+                            font-size: 12px;
+                            font-weight: bold;
+                            text-align: center;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            
+                            &:hover {
+                                background-color: #dad8d8;
+                            }
+                            &__button {
+                                
+                            }
+                        }
+                        
+                        &__follow {
+                            border-radius: 2px 0 0 2px;
+                            margin-left: 0 !important;
+                            position: relative;
+                            z-index: 1;
+                            line-height: 26px;
+                            padding: 0 10px;
+                            background-color: #f5f6f7;
+                            border-color: #ccd0d5;
+                            color: #4b4f56;
+                            border: 1px solid;
+                            font-size: 12px;
+                            font-weight: bold;
+                            text-align: center;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            
+                            &:hover {
+                                background-color: #dad8d8;
+                            }
+                            &__button {
+                            }
+                        }
+                        
+                        &__share {
+                            border-radius: 2px 0 0 2px;
+                            margin-left: 0 !important;
+                            position: relative;
+                            z-index: 1;
+                            line-height: 26px;
+                            padding: 0 10px;
+                            background-color: #f5f6f7;
+                            border-color: #ccd0d5;
+                            color: #4b4f56;
+                            border: 1px solid;
+                            font-size: 12px;
+                            font-weight: bold;
+                            text-align: center;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            
+                            &:hover {
+                                background-color: #dad8d8;
+                            }
+                            &__button {
+                                
+                            }
+                        }
+                        
+                        &__more {
+                            border-radius: 2px 0 0 2px;
+                            margin-left: 0 !important;
+                            position: relative;
+                            z-index: 1;
+                            line-height: 26px;
+                            padding: 0 10px;
+                            background-color: #f5f6f7;
+                            border-color: #ccd0d5;
+                            color: #4b4f56;
+                            border: 1px solid;
+                            font-size: 12px;
+                            font-weight: bold;
+                            text-align: center;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            &:hover {
+                                background-color: #dad8d8;
+                            }
+                            &__button {
+                                
+                                
+                            }
+                        }
+                    }
+                }
+                &__right {
+                    float: right;
+                    &__items {
+                        &__learn-more {
+                            &__button{
+                                width: 288px;
+                                font-size: 14px;
+                                height: 28px;
+                                padding: 0;
+                                background-color: #4267b2;
+                                border: 0;
+                                border-radius: 2px;
+                                color: #fff;
+                                cursor: pointer;
+                                line-height: 26px;
+                                &:hover {
+                                    background-color: #012b80;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+    &__content-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        
+        &__right {
+            width: 308px;
+            margin: 0 12px;
+            padding-top: 12px;
+            
+            &__box {
+
+                &__col {
+                    
+                    &__rating{
+                        background-color: #fff;
+                        border: 1px solid #dddfe2;
+                        border-radius: 3px;
+                        margin-bottom: 12px;
+                        height: 58px;
+                        
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        
+                        
+                        &__cont {
+                            display: flex;
+                            margin: 5px;
+                            
+
+                            &__icon {
+                                // font-size: 12px;  
+                                // background-color: #616770;
+                                background-image: url('https://puretextuality.files.wordpress.com/2013/11/no-ratings1.png');
+                                background-size: cover;
+                                width: 32px;
+                                height: 32px;
+                                border-radius: 50%;                             
+                            }
+                            
+                            &__text {
+                                margin-left: 11px;
+                                font-size: 12px;
+                                font-weight: bold;
+                                
+                            }
+                        }
+                    }
+                
+                
+                    &__story {
+                    border: 1px solid #dddfe2;
+                    border-radius: 3px;
+                    margin-bottom: 12px;
+                    &__box {
+                        &__pic{
+                            height: 150px;
+                            background: #4267b2;
+                            
+                        }
+                        
+                        &__head {
+                            background: #fff;
+
+                            &__title {
+                                padding: 12px 0 0 12px;
+                                font-size: 16px;
+                                font-weight: 500;
+                            }
+                            
+                            &__subtitle {
+                                padding: 12px;
+                                font-size: 14px;
+                                color: blue;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            
+                
+                &__community {
+                    border: 1px solid #dddfe2;
+                    border-radius: 3px;
+                    background-color: #fff;
+
+                    &__header{
+                        border-top: none;
+                        border-top-left-radius: 3px;
+                        border-top-right-radius: 3px;
+                        padding: 12px 0;
+                        font-size: 12px;
+                        line-height: 12px;
+
+                        &__titleBold{
+                            color: #000;
+                            font-size: 14px;
+                            margin-left: 12px;
+                            font-weight: 600;
+                            
+                        }
+                        
+                        &__tilteReg {
+                            cursor: pointer;
+                            display: block;
+                            float: right;
+                            line-height: 13px;
+                            margin: 0 12px;
+                            font-size: 12px;
+                            color: #365899
+                            
+                        }
+                    }
+                    
+                    &__likes {
+                        margin-left: 12px;
+                        
+                        border-top: none;
+                        
+                        &__box{
+                            padding: 4px 12px;
+
+                            &__icon{
+                                float: left;
+                                margin-right: 12px;                                
+                            }
+                        }
+                        
+                        &__text {
+                            &__cont{
+                                
+                            }
+                        }
+                    }
+                    
+                    &__follows {
+                        margin: 0 0 12px 12px;
+                        border-top: none;
+
+                        &__box{
+                            padding: 4px 12px;
+                            &__icon{
+                                float: left;
+                                margin-right: 12px;
+                                &__cont{
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+        &__left{
+            width: 500px !important;
+            margin-left: 12px;
+            padding-top: 12px;
+            
+            &__feed{
+                
+
+                &__postin{
+                    margin-bottom: 10px;
+                    
+
+                    &__sect{
+                        background-color: #fff;
+                        border: 1px solid #dddfe2;
+                        border-radius: 3px;
+
+                       &__list{
+                        border-top: none;
+                        border-top-left-radius: 3px;
+                        border-top-right-radius: 3px;
+                        border-bottom: 1px solid #e5e5e5;
+                        margin: 0 12px;
+                        padding: 10px 0 8px 0;
+                        position: relative;
+                        z-index: 1;
+                        background-color: #fff;
+                           
+                           &__item{
+                            display: inline;
+                            padding: 4px 6px 4px 4px;
+                            cursor: pointer;
+                            font-size: 12px;
+                            font-weight: 600;
+                            line-height: 14px;                            
+                            color: #4b4f56;
+
+                               
+
+                               &i{
+                                border-width: 0;
+                                margin-left: -12px;
+                                padding: 0 6px 0 8px;
+                                color: #4b4f56;
+                                   
+                               }
+
+                               &a{
+                                   
+                                   
+                               }
+
+                               &__text{
+                                display: inline-block;
+                                padding-left: 11px;
+                                color: #4b4f56;
+                               }
+                           }
+                       } 
+
+                       &__inpSec{
+                           display: flex;
+                           height: 71px;
+                           
+
+                           &__pic{
+                               background-image: url('https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person');
+                               background-size: cover;
+                            //    background-color: #4267b2;
+                               width: 40px;
+                               height: 40px;
+                               border-radius: 50%;
+                               margin: 12px 0 0 12px;
+                               cursor: pointer;
+                               margin-right: 4px;
+                               
+                               
+                           }
+
+                           &__textArea{
+                               
+
+                               &__input{
+                                width: 426px;
+                                height: 71px;
+                                border: none;
+                                padding-left: 10px;
+                                font-size: 14px;
+                               }
+                           }
+                       }
+
+                       &__btnSec{
+
+                           &__listBox{
+                            display: flex;
+                            justify-content: space-around;
+                            height: 49px;
+                            /* align-content: center; */
+                            align-items: center;
+                            border-top: 1px solid #e9ebee;
+                            margin: 0 12px;
+                            padding: 8px 0;
+
+                                
+
+                               &__Btn{
+                                   cursor: pointer;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 0 15px;
+                                    margin-right: 6px;
+                                    background: #f5f6f7;
+                                    border-radius: 18px;
+                                    border: none;
+                                    position: relative;
+                                    align-content: center;
+                                    
+
+                                   
+
+                                  &__icon{
+                                        height: 20px;
+                                        width: 20px;
+                                        background-color: #4267b2;
+                                        // background-image: url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-512.png')
+
+                                  } 
+
+                                  &__text{
+                                        padding-left: 10px;                                      
+                                        box-sizing: border-box;
+                                        color: #4b4f56;
+                                        display: inline-block;
+                                        font-weight: 600;
+                                        height: 34px;
+                                        line-height: 34px;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        vertical-align: middle;
+                                        white-space: nowrap;
+                                        width: 100%;
+                                        cursor: pointer;
+                                      
+                                  }
+                               }
+                               &__Btn:hover {
+                                background-color: #e6e6e6;
+                            }
+                           }
+                       }
+                    }
+                }
+
+                &__posts {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    border: 1px solid #e5e5e5;
+                    border-radius: 3px;
+                    // margin: 12px;
+                    margin-top: 10px;
+                    background-color: #fff;
+
+                    &__content{
+                        // padding: 12px 12px 0;
+
+                        &__user{
+                            display: flex;
+
+                            &__pic{
+                                background-image: url('https://www.thehindu.com/sci-tech/technology/internet/article17759222.ece/alternates/FREE_660/02th-egg-person');
+                               background-size: cover;
+                                background-color: #4267b2;
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 50%;
+                                margin: 12px 0 0 12px;
+                                cursor: pointer;
+                                margin-right: 8px;
+
+                            }
+
+                            &__postInfo {
+                                margin: 16px 0 0 12px;
+                                vertical-align: middle;
+
+                                &__name{
+                                    margin-bottom: 2px;
+                                    font-size: 14px;
+                                    color: #365899;
+                                    font-weight: 600;
+
+                                }
+    
+                                &__date{
+                                    color: #616770;
+                                    font-size: 12px;
+    
+                                }
+
+                            }
+                            
+                        }
+
+                        &__text{
+                            margin-top: 6px;
+                            font-size: 14px;
+                            font-weight: normal;
+                            line-height: 1.38;
+                            padding: 12px 12px 0;
+
+                        }
+
+                        &__postPhoto{
+                            padding: 12px 12px 0;
+                            margin-top: 10px;
+                            margin: 10px 12px;
+                            background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Best-Back-To-The-Future-Wallpapers.jpg');
+                            height: 400px;
+                            background-size: cover;
+
+                        }
+
+                        &__postReactions{
+                            padding: 12px 12px 0;
+
+                            &__list{
+                                background: transparent;
+                                display: flex;
+                                align-items: center;
+                                flex-direction: row;
+                                justify-content: space-around;
+
+                                
+
+                                &__item{
+                                    cursor: pointer;
+                                    display: inline-block;
+                                    border: none;
+                                    padding: 4px 0;
+                                    margin: 0 12px;
+                                    height: 32px;
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    line-height: 14px;
+                                    color: #616770;
+
+
+                                   &__reacttext{
+
+                                   }
+                               } 
+
+                               &__item:hover {
+                                width: 100px;
+                                background-color: #90949c;
+                            }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
